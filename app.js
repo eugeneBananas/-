@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const { errors } = require('celebrate');
 // const NotFoundError = require('./errors/not-found-error');
 
-const { PORT = 3001, DB_URL = 'mongodb+srv://user:<KkLYVrwP5E1a5eNZ>@cluster0.7u38o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' } = process.env;
+const { PORT = 3001, DB_URL = 'mongodb+srv://user:KkLYVrwP5E1a5eNZ@cluster0.7u38o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' } = process.env;
 
 const app = express();
 
